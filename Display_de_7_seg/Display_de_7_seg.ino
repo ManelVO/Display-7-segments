@@ -30,116 +30,63 @@ void setup()
 //*****************************LOOP*****************************************************************
   void loop(){ 
     
-    //CERO 
+    //M 
   
   digitalWrite(a,HIGH);
-  digitalWrite(b,HIGH);
+  digitalWrite(b,LOW);
   digitalWrite(c,HIGH);
-  digitalWrite(d,HIGH);
+  digitalWrite(d,LOW);
   digitalWrite(e,HIGH);
-  digitalWrite(f,HIGH);
+  digitalWrite(f,LOW);
   digitalWrite(g,LOW);
 
   delay(500);
 
-  //UNO
+  //A
 
-  digitalWrite(a,LOW);
+  digitalWrite(a,HIGH);
   digitalWrite(b,HIGH);
   digitalWrite(c,HIGH);
   digitalWrite(d,LOW);
-  digitalWrite(e,LOW);
-  digitalWrite(f,LOW);
-  digitalWrite(g,LOW);
+  digitalWrite(e,HIGH);
+  digitalWrite(f,HIGH);
+  digitalWrite(g,HIGH);
   delay(500);
 
-  //DOS
+  //N
+
+  digitalWrite(a,LOW);
+  digitalWrite(b,LOW);
+  digitalWrite(c,HIGH);
+  digitalWrite(d,LOW);
+  digitalWrite(e,HIGH);
+  digitalWrite(f,LOW);
+  digitalWrite(g,HIGH);
+  delay(500);
+
+  //E
 
   digitalWrite(a,HIGH);
-  digitalWrite(b,HIGH);
+  digitalWrite(b,LOW);
   digitalWrite(c,LOW);
   digitalWrite(d,HIGH);
   digitalWrite(e,HIGH);
-  digitalWrite(f,LOW);
+  digitalWrite(f,HIGH);
   digitalWrite(g,HIGH);
   delay(500);
 
-  //TRES
-
-  digitalWrite(a,HIGH);
-  digitalWrite(b,HIGH);
-  digitalWrite(c,HIGH);
-  digitalWrite(d,HIGH);
-  digitalWrite(e,LOW);
-  digitalWrite(f,LOW);
-  digitalWrite(g,HIGH);
-  delay(500);
-
-  //CUATRO
+  //L
 
   digitalWrite(a,LOW);
-  digitalWrite(b,HIGH);
-  digitalWrite(c,HIGH);
-  digitalWrite(d,LOW);
-  digitalWrite(e,LOW);
-  digitalWrite(f,HIGH);
-  digitalWrite(g,HIGH);
-  delay(500);
-
-  //CINCO
-
-  digitalWrite(a,HIGH);
   digitalWrite(b,LOW);
-  digitalWrite(c,HIGH);
-  digitalWrite(d,HIGH);
-  digitalWrite(e,LOW);
-  digitalWrite(f,HIGH);
-  digitalWrite(g,HIGH);
-  delay(500);
-  
-  //SEIS
-  
-  digitalWrite(a,HIGH);
-  digitalWrite(b,LOW);
-  digitalWrite(c,HIGH);
+  digitalWrite(c,LOW);
   digitalWrite(d,HIGH);
   digitalWrite(e,HIGH);
   digitalWrite(f,HIGH);
-  digitalWrite(g,HIGH);
-  delay(500);
-
-  //SIETE
-
-  digitalWrite(a,HIGH);
-  digitalWrite(b,HIGH);
-  digitalWrite(c,HIGH);
-  digitalWrite(d,LOW);
-  digitalWrite(e,LOW);
-  digitalWrite(f,LOW);
   digitalWrite(g,LOW);
   delay(500);
 
-  //OCHO
-
-  digitalWrite(a,HIGH);
-  digitalWrite(b,HIGH);
-  digitalWrite(c,HIGH);
-  digitalWrite(d,HIGH);
-  digitalWrite(e,HIGH);
-  digitalWrite(f,HIGH);
-  digitalWrite(g,HIGH);
-  delay(500);
-
-  //NUEVE
-
-  digitalWrite(a,HIGH);
-  digitalWrite(b,HIGH);
-  digitalWrite(c,HIGH);
-  digitalWrite(d,LOW);
-  digitalWrite(e,LOW);
-  digitalWrite(f,HIGH);
-  digitalWrite(g,HIGH);
-  delay(500);
+  
 
   }
 
